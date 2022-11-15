@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat:wght@900&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --orange-color: #F26F16;
+    --text-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+}
+
+.inicio {
+    min-height: 100vh;
+    display: block;
+    background-image: url(img/desktop1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    font-size: 28px;
+    margin-left: -55px;
+}
+
+.row-inicio {
+    padding: 10px 80px;
+    display: flex;
+}
+
+.row-inicio .col1 {
+    width: 50%;
+}
+
+.col1 h1 {
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 20px;
+    margin-top: -45px;
+}
+
+.grifar {
+    color: var(--orange-color);
+}
+
+.col1 p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 28px;
+    margin-top: 9px;
+    margin-left: 0px;
+}
+
+.icon-text {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form .form-control {
+    width: 31%;
+    padding: 12px 203px;
+    border-radius: 8px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid rgba(235, 233, 233, 0.397);
+}
+
+.form .btn {
+    background: var(--orange-color);
+    width: 100%;
+    padding: 17px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+.form .btn:hover {
+    background-color: transparent;
+    color: var(--orange-color);
+    border: 1px solid var(--orange-color);
+}
+
+.fa-solid {
+    color: var(--orange-color);
+    font-size: 20px;
+    margin-top: 2px;
+    margin-right: 12px;
+}
+
+.data {
+    margin-right: 60px;
+    font-weight: 400;
+}
+
+.gratuito {
+    font-weight: 400;
+}
+
+/*--------------------------- FEEDBACK ---------------------------*/
+
+.feedback {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(img/Bg-feedbacks-1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.feedback h2 {
+    padding-top: 70px;
+    color: var(--text-color);
+    text-align: center;
+    font-size: 25px;
+    line-height: 33px;
+}
+
+.row-fb {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 80px;
+    padding-left: 30px;
+}
+
+.col-fb img {
+    border-radius: 15px;
+    margin-top: -50px;
+}
+
+.col-fb {
+    background-color: rgba(255, 255, 255, 0.06);
+    padding: 0px 20px;
+    margin: 20px;
+    border-radius: 13px;
+}
+
+.row-fb .col-fb p {
+    margin-top: 13px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 400;
+    margin-left: 0;
+}
+
+/*--------------------------- FORMULA ---------------------------*/
+
+.grifar-fundo {
+    background-color: var(--orange-color);
+    color: black;
+    padding: 0px 7px;
+    border-radius: 2px;
+}
+
+.formula {
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.658)), url(img/Fundo-3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.formula h1 {
+    padding-left: 90px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+div h3 {
+    font-size: 32px;
+    color: var(--orange-color);
+    margin-left: 90px;
+    font-weight: 500;
+}
+
+div p {
+    font-size: 17px;
+    line-height: 26px;
+    margin-top: -50px;
+    margin-bottom: 28px;
+    margin-left: 135px;
+    list-style: none;
+}
+
+/*--------------------------- SOBRE MIM ---------------------------*/
+
+.sobre {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(img/Perfil-Emanuel.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.row-sobre {
+    display: flex;
+    padding: 0 50px;
+}
+
+.row-sobre .col-1 {
+    width: 45%;
+}
+
+.row-sobre .col-2{
+    width: 55%;
+    padding-right: 10px;
+}
+
+.row-sobre .col-2 h2 {
+    color: var(--orange-color);
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.row-sobre .col-2 h3 {
+    color: var(--orange-color);
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-left: 0;
+}
+
+.row-sobre .col-2 p {
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 13px;
+    color: light gray;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
